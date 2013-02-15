@@ -9,7 +9,7 @@
  set -e
 
  ## Download the source code.
- ls psplibraries 1> /dev/null || git clone https://github.com/pspdev/psplibraries.git
+ ls psplibraries 1> /dev/null || git clone https://github.com/d33tah/psplibraries.git
 
  ## Enter the source directory.
  cd psplibraries
