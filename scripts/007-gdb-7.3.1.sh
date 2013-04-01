@@ -25,6 +25,6 @@
 
  ## Compile and install.
  make clean
- make -j 2
+ make $MAKEFLAGS
  make install
  make clean

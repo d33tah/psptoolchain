@@ -24,6 +24,6 @@
 
  ## Compile and install. ( -r is required for building under osx )
  make clean
- make -r -j 2
+ make -r $MAKEFLAGS
  make install
  make clean

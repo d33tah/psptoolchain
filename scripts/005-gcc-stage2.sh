@@ -42,6 +42,6 @@
 
  ## Compile and install.
  make clean
- CFLAGS_FOR_TARGET="-G0" make -j 2
+ CFLAGS_FOR_TARGET="-G0" make $MAKEFLAGS
  make install
  make clean
